@@ -13,6 +13,11 @@
 		859EFEB41C1150C80022A462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859EFEB31C1150C80022A462 /* Assets.xcassets */; };
 		859EFEB71C1150C80022A462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859EFEB51C1150C80022A462 /* LaunchScreen.storyboard */; };
 		859EFEC21C1150C80022A462 /* GenericContent_ProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEC11C1150C80022A462 /* GenericContent_ProtoTests.swift */; };
+		859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859EFECE1C1153840022A462 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED01C11592B0022A462 /* BackTableVC.swift */; settings = {ASSET_TAGS = (); }; };
+		859EFED31C1168440022A462 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED21C1168440022A462 /* Hello.swift */; settings = {ASSET_TAGS = (); }; };
+		859EFED51C11692A0022A462 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED41C11692A0022A462 /* Second.swift */; settings = {ASSET_TAGS = (); }; };
+		859EFED71C1169720022A462 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED61C1169720022A462 /* World.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,13 @@
 		859EFEBD1C1150C80022A462 /* GenericContent_ProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericContent_ProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859EFEC11C1150C80022A462 /* GenericContent_ProtoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericContent_ProtoTests.swift; sourceTree = "<group>"; };
 		859EFEC31C1150C80022A462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859EFECC1C1153830022A462 /* GenericContent_Proto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericContent_Proto-Bridging-Header.h"; sourceTree = "<group>"; };
+		859EFECD1C1153840022A462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		859EFECE1C1153840022A462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		859EFED01C11592B0022A462 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		859EFED21C1168440022A462 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		859EFED41C11692A0022A462 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		859EFED61C1169720022A462 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 		859EFEA01C1150C80022A462 = {
 			isa = PBXGroup;
 			children = (
+				859EFED21C1168440022A462 /* Hello.swift */,
 				859EFEAB1C1150C80022A462 /* GenericContent_Proto */,
 				859EFEC01C1150C80022A462 /* GenericContent_ProtoTests */,
 				859EFEAA1C1150C80022A462 /* Products */,
@@ -77,12 +90,18 @@
 		859EFEAB1C1150C80022A462 /* GenericContent_Proto */ = {
 			isa = PBXGroup;
 			children = (
+				859EFECD1C1153840022A462 /* SWRevealViewController.h */,
+				859EFECE1C1153840022A462 /* SWRevealViewController.m */,
 				859EFEAC1C1150C80022A462 /* AppDelegate.swift */,
 				859EFEAE1C1150C80022A462 /* ViewController.swift */,
 				859EFEB01C1150C80022A462 /* Main.storyboard */,
+				859EFED41C11692A0022A462 /* Second.swift */,
+				859EFED61C1169720022A462 /* World.swift */,
+				859EFED01C11592B0022A462 /* BackTableVC.swift */,
 				859EFEB31C1150C80022A462 /* Assets.xcassets */,
 				859EFEB51C1150C80022A462 /* LaunchScreen.storyboard */,
 				859EFEB81C1150C80022A462 /* Info.plist */,
+				859EFECC1C1153830022A462 /* GenericContent_Proto-Bridging-Header.h */,
 			);
 			path = GenericContent_Proto;
 			sourceTree = "<group>";
@@ -140,6 +159,7 @@
 		859EFEA11C1150C80022A462 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Garrett Minky";
 				TargetAttributes = {
@@ -198,6 +218,11 @@
 			files = (
 				859EFEAF1C1150C80022A462 /* ViewController.swift in Sources */,
 				859EFEAD1C1150C80022A462 /* AppDelegate.swift in Sources */,
+				859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */,
+				859EFED31C1168440022A462 /* Hello.swift in Sources */,
+				859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */,
+				859EFED71C1169720022A462 /* World.swift in Sources */,
+				859EFED51C11692A0022A462 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +349,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GenericContent_Proto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GMONEY.GenericContent-Proto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericContent_Proto/GenericContent_Proto-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -335,10 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GenericContent_Proto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GMONEY.GenericContent-Proto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GenericContent_Proto/GenericContent_Proto-Bridging-Header.h";
 			};
 			name = Release;
 		};
