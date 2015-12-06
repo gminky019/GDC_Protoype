@@ -68,6 +68,17 @@
                                     <segue destination="Jpq-Ih-Mxu" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ufA-6U-9Hk"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Articles" id="6DK-fo-O2e">
+                                <rect key="frame" x="0.0" y="160" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6DK-fo-O2e" id="vRK-3f-Q9l">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="rbs-gr-rYj" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="uxL-Is-HUc"/>
+                                </connections>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="Dg8-7M-xqK" id="aRA-Lc-cp6"/>
@@ -94,6 +105,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T1K-5L-pUK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="476" y="1535"/>
+        </scene>
+        <!--Article View-->
+        <scene sceneID="VRh-TQ-h5A">
+            <objects>
+                <viewController id="rbs-gr-rYj" customClass="ArticleView" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UI9-IY-aju"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHI-QR-6nG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FA9-TZ-sbB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CK8-sD-xhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="-1052"/>
         </scene>
         <!--World-->
         <scene sceneID="GhU-qI-Mt2">

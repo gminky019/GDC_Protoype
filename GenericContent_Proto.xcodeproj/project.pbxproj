@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850B32C01C142F6E00483A68 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32BF1C142F6E00483A68 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		850B32C21C1430E500483A68 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32C11C1430E500483A68 /* ArticleView.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFEAD1C1150C80022A462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEAC1C1150C80022A462 /* AppDelegate.swift */; };
 		859EFEAF1C1150C80022A462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEAE1C1150C80022A462 /* ViewController.swift */; };
 		859EFEB21C1150C80022A462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859EFEB01C1150C80022A462 /* Main.storyboard */; };
@@ -18,6 +20,7 @@
 		859EFED31C1168440022A462 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED21C1168440022A462 /* Hello.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFED51C11692A0022A462 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED41C11692A0022A462 /* Second.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFED71C1169720022A462 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED61C1169720022A462 /* World.swift */; settings = {ASSET_TAGS = (); }; };
+		859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEDA1C1418C90022A462 /* RESTConnect.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850B32BF1C142F6E00483A68 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		850B32C11C1430E500483A68 /* ArticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		859EFEA91C1150C80022A462 /* GenericContent_Proto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericContent_Proto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859EFEAC1C1150C80022A462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859EFEAE1C1150C80022A462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,9 +50,10 @@
 		859EFECD1C1153840022A462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		859EFECE1C1153840022A462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		859EFED01C11592B0022A462 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
-		859EFED21C1168440022A462 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		859EFED21C1168440022A462 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hello.swift; path = ../Hello.swift; sourceTree = "<group>"; };
 		859EFED41C11692A0022A462 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		859EFED61C1169720022A462 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		859EFEDA1C1418C90022A462 /* RESTConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +77,6 @@
 		859EFEA01C1150C80022A462 = {
 			isa = PBXGroup;
 			children = (
-				859EFED21C1168440022A462 /* Hello.swift */,
 				859EFEAB1C1150C80022A462 /* GenericContent_Proto */,
 				859EFEC01C1150C80022A462 /* GenericContent_ProtoTests */,
 				859EFEAA1C1150C80022A462 /* Products */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				859EFECD1C1153840022A462 /* SWRevealViewController.h */,
+				859EFED21C1168440022A462 /* Hello.swift */,
 				859EFECE1C1153840022A462 /* SWRevealViewController.m */,
 				859EFEAC1C1150C80022A462 /* AppDelegate.swift */,
 				859EFEAE1C1150C80022A462 /* ViewController.swift */,
@@ -101,7 +107,10 @@
 				859EFEB31C1150C80022A462 /* Assets.xcassets */,
 				859EFEB51C1150C80022A462 /* LaunchScreen.storyboard */,
 				859EFEB81C1150C80022A462 /* Info.plist */,
+				850B32BF1C142F6E00483A68 /* SwiftyJSON.swift */,
 				859EFECC1C1153830022A462 /* GenericContent_Proto-Bridging-Header.h */,
+				859EFEDA1C1418C90022A462 /* RESTConnect.swift */,
+				850B32C11C1430E500483A68 /* ArticleView.swift */,
 			);
 			path = GenericContent_Proto;
 			sourceTree = "<group>";
@@ -222,6 +231,9 @@
 				859EFED31C1168440022A462 /* Hello.swift in Sources */,
 				859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */,
 				859EFED71C1169720022A462 /* World.swift in Sources */,
+				850B32C01C142F6E00483A68 /* SwiftyJSON.swift in Sources */,
+				850B32C21C1430E500483A68 /* ArticleView.swift in Sources */,
+				859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */,
 				859EFED51C11692A0022A462 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +427,7 @@
 				859EFEC81C1150C80022A462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		859EFEC91C1150C80022A462 /* Build configuration list for PBXNativeTarget "GenericContent_ProtoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				859EFECB1C1150C80022A462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
