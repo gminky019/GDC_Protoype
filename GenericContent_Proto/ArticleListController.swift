@@ -95,6 +95,22 @@ class ArticleListController: UIViewController, UITableViewDataSource, UITableVie
         
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "article")
+        {
+            var secondViewController : TestLoaderCont = segue.destinationViewController as! TestLoaderCont
+            
+            var indexPath = self.tableView?.indexPathForSelectedRow!
+            
+            secondViewController.articleData = self.itemsArray[indexPath!.row].articleArt
+            
+        }
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("article", sender: indexPath)
+    }
+    
     func getArticles()
     {
         

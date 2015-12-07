@@ -122,7 +122,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CK8-sD-xhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573" y="-1052"/>
+            <point key="canvasLocation" x="1611" y="-1072"/>
+        </scene>
+        <!--Test Loader Cont-->
+        <scene sceneID="Cx9-cf-c0O">
+            <objects>
+                <viewController id="RhG-qz-UNA" customClass="TestLoaderCont" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ESk-Vs-UMW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vzr-cT-Gcy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gre-Fw-uEb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4qW-e2-Ngd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cGx-TR-sBP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2483" y="-679"/>
         </scene>
         <!--Article List Controller-->
         <scene sceneID="GhU-qI-Mt2">
@@ -137,6 +156,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="RhG-qz-UNA" kind="show" identifier="article" customClass="SWRevealViewControllerSeguePushController" id="fQt-El-UMN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kNB-Vh-CP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
