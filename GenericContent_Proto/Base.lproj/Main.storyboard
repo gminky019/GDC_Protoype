@@ -57,7 +57,7 @@
                                     <segue destination="Gr9-ZP-PuD" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Nv0-R1-HpT"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="World" id="HFV-9B-J8e">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Article_List" id="HFV-9B-J8e">
                                 <rect key="frame" x="0.0" y="116" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HFV-9B-J8e" id="W1G-6H-eIo">
@@ -88,7 +88,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOn-Hj-GqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="-300"/>
+            <point key="canvasLocation" x="236" y="-568"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gHf-J4-BRo">
@@ -124,10 +124,10 @@
             </objects>
             <point key="canvasLocation" x="1573" y="-1052"/>
         </scene>
-        <!--World-->
+        <!--Article List Controller-->
         <scene sceneID="GhU-qI-Mt2">
             <objects>
-                <viewController id="Jpq-Ih-Mxu" customClass="World" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Jpq-Ih-Mxu" customClass="ArticleListController" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8qt-p9-GSp"/>
                         <viewControllerLayoutGuide type="bottom" id="wLd-am-SdH"/>
@@ -135,11 +135,6 @@
                     <view key="view" contentMode="scaleToFill" id="9mQ-uN-531">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eEB-mB-sC7">
-                                <rect key="frame" x="160" y="112" width="51" height="31"/>
-                            </switch>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

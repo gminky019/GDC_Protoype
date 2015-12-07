@@ -20,7 +20,7 @@
 		859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED01C11592B0022A462 /* BackTableVC.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFED31C1168440022A462 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED21C1168440022A462 /* Hello.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFED51C11692A0022A462 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED41C11692A0022A462 /* Second.swift */; settings = {ASSET_TAGS = (); }; };
-		859EFED71C1169720022A462 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED61C1169720022A462 /* World.swift */; settings = {ASSET_TAGS = (); }; };
+		859EFED71C1169720022A462 /* ArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED61C1169720022A462 /* ArticleListController.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEDA1C1418C90022A462 /* RESTConnect.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		859EFED01C11592B0022A462 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
 		859EFED21C1168440022A462 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hello.swift; path = ../Hello.swift; sourceTree = "<group>"; };
 		859EFED41C11692A0022A462 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
-		859EFED61C1169720022A462 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		859EFED61C1169720022A462 /* ArticleListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListController.swift; sourceTree = "<group>"; };
 		859EFEDA1C1418C90022A462 /* RESTConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 				859EFEAE1C1150C80022A462 /* ViewController.swift */,
 				859EFEB01C1150C80022A462 /* Main.storyboard */,
 				859EFED41C11692A0022A462 /* Second.swift */,
-				859EFED61C1169720022A462 /* World.swift */,
+				859EFED61C1169720022A462 /* ArticleListController.swift */,
 				859EFED01C11592B0022A462 /* BackTableVC.swift */,
 				859EFEB31C1150C80022A462 /* Assets.xcassets */,
 				859EFEB51C1150C80022A462 /* LaunchScreen.storyboard */,
@@ -234,7 +234,7 @@
 				859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */,
 				859EFED31C1168440022A462 /* Hello.swift in Sources */,
 				859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */,
-				859EFED71C1169720022A462 /* World.swift in Sources */,
+				859EFED71C1169720022A462 /* ArticleListController.swift in Sources */,
 				850B32C01C142F6E00483A68 /* SwiftyJSON.swift in Sources */,
 				850B32C21C1430E500483A68 /* ArticleView.swift in Sources */,
 				859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */,
