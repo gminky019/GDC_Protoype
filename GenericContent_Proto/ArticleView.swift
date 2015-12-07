@@ -10,10 +10,12 @@ import Foundation
 import UIKit
 
 
+
 class ArticleView: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tableView:UITableView?
     var items = NSMutableArray()
+    var articles = [String: article] ()
     
     override func viewDidLoad() {
         self.getArticles()
@@ -61,9 +63,14 @@ class ArticleView: UIViewController, UITableViewDataSource, UITableViewDelegate 
     func getArticles()
     {
         RESTConnect.instance.getArticles {json in
-            let results = json["results"]
+            let results = json["Articles"]
             
-            for (index: String, subObj: JSON) in results{
+            
+            for (index: String, subJson: JSON) in results{
+                
+                let newArt = article.init(title: JSON["Title"].string!, desc: JSON["Description"].string!, thumb: JSON["Thumbnail"].string!, text: JSON["MainText"].string!)
+                self.articles[JSON["Title"].string!] = newArt
+                
                 
             }
             

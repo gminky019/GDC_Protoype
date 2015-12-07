@@ -18,7 +18,7 @@ class RESTConnect : NSObject{
     
     func getArticles(onComplete: (JSON)-> Void){
     
-        let realURL = baseURL + "getAllArticles/"
+        let realURL = baseURL + "getAllArticles"
     
         getHTTPRequest(realURL, onComplete: { json, err in onComplete(json as JSON)})
             
