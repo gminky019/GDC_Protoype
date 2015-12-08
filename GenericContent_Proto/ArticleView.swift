@@ -126,7 +126,7 @@ class ArticleView: UIViewController, UITableViewDataSource, UITableViewDelegate 
             
             for (index: String, subJson: JSON) in results{
                 
-                let newArt = article.init(title: JSON["Title"].string!, desc: JSON["Description"].string!, thumb: JSON["Thumbnail"].string!, text: JSON["MainText"].string!)
+                let newArt = article.init(title: JSON["Title"].string!, desc: JSON["Description"].string!, thumb: JSON["Thumbnail"].string!, text: JSON["MainText"].string!, date: JSON["Date"].string!, type: JSON["Type"].string!)
                 self.articles[JSON["Title"].string!] = newArt
                 
                 

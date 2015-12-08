@@ -29,7 +29,7 @@ class SelectedArticleCont: UIViewController{
         super.viewDidLoad()
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
-       
+       self.articleText.text = self.articleData.Text
         getPic()
     //    var img: UIImage = UIImage.init()
         /*
@@ -58,7 +58,12 @@ class SelectedArticleCont: UIViewController{
             
             self.myActIndicator.removeFromSuperview()
             self.articleTitle.text = self.articleData.Title
+           // self.articleText.text = self.articleData.Text
+            self.articleDate.text = self.articleData.Date
+            self.articleType.text = self.articleData.Type
             self.articleMainPic.image = test
+            
+           // self.articleDate.text =
             
             
         })
