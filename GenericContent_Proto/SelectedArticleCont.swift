@@ -77,7 +77,7 @@ class SelectedArticleCont: UIViewController{
     {
         self.myActIndicator = UIActivityIndicatorView(frame: CGRectMake(100, 100, 100, 100))
         
-        self.myActIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
+        self.myActIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
         self.myActIndicator.center = self.view.center
         self.myActIndicator.startAnimating()
         

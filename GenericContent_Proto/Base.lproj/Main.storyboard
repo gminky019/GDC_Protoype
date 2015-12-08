@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -281,14 +281,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IbH-Ic-Vkk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IbH-Ic-Vkk">
                                 <rect key="frame" x="0.0" y="60" width="414" height="1342"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SampleImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iBd-ns-7iI">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iBd-ns-7iI">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="264"/>
                                         <animations/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RZt-b1-HLW">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RZt-b1-HLW">
                                         <rect key="frame" x="0.0" y="320" width="412" height="1022"/>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -307,7 +307,7 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Article Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m8-Hv-6pl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Article Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m8-Hv-6pl">
                                         <rect key="frame" x="14" y="216" width="384" height="39"/>
                                         <animations/>
                                         <constraints>
@@ -317,7 +317,7 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconSource.png" translatesAutoresizingMaskIntoConstraints="NO" id="iNb-n4-7j6">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="IconSource.png" translatesAutoresizingMaskIntoConstraints="NO" id="iNb-n4-7j6">
                                         <rect key="frame" x="5" y="293" width="40" height="40"/>
                                         <animations/>
                                         <constraints>
@@ -325,14 +325,14 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                             <constraint firstAttribute="height" constant="40" id="qmV-5y-Dyx"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTime.png" translatesAutoresizingMaskIntoConstraints="NO" id="eKD-3g-L7d">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="IconTime.png" translatesAutoresizingMaskIntoConstraints="NO" id="eKD-3g-L7d">
                                         <rect key="frame" x="187" y="293" width="40" height="40"/>
                                         <animations/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="NSr-hp-y2g"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of Article" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFy-uS-FfA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Type of Article" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFy-uS-FfA">
                                         <rect key="frame" x="43" y="301" width="136" height="21"/>
                                         <animations/>
                                         <constraints>
@@ -342,7 +342,7 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 3, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9D-7P-BYZ">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="March 3, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9D-7P-BYZ">
                                         <rect key="frame" x="225" y="301" width="181" height="21"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
@@ -558,7 +558,6 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
         <image name="IconComments.png" width="39" height="42"/>
         <image name="IconSource.png" width="42" height="39"/>
         <image name="IconTime.png" width="42" height="39"/>
-        <image name="SampleImage.jpg" width="320" height="264"/>
         <image name="TopBar.jpg" width="320" height="55"/>
     </resources>
     <inferredMetricsTieBreakers>
