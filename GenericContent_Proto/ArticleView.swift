@@ -15,7 +15,7 @@ class ArticleView: UIViewController, UITableViewDataSource, UITableViewDelegate 
     
     var tableView:UITableView?
     var myActIndicator:UIActivityIndicatorView!
-    var alert:UIAlertView = UIAlertView()
+    //var alert:UIAlertView = UIAlertView()
     
     struct ArticleObj {
         var articleTitle : String!
@@ -96,6 +96,22 @@ class ArticleView: UIViewController, UITableViewDataSource, UITableViewDelegate 
         self.view.addSubview(self.myActIndicator)
         
 
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "article")
+        {
+            var secondViewController : SelectedArticleCont = segue.destinationViewController as! SelectedArticleCont
+            
+            var indexPath = self.tableView?.indexPathForSelectedRow!
+            
+            secondViewController.articleData = self.itemsArray[indexPath!.row].articleArt
+            
+        }
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("article", sender: indexPath)
     }
     
     func getArticles()

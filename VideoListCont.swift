@@ -94,22 +94,22 @@ class VideoListCont: UIViewController, UITableViewDataSource, UITableViewDelegat
         
         
     }
-    /*
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if(segue.identifier == "article")
+        if(segue.identifier == "video")
         {
-            var secondViewController : TestLoaderCont = segue.destinationViewController as! TestLoaderCont
+            var secondViewController : BaseVideoController = segue.destinationViewController as! BaseVideoController
             
             var indexPath = self.tableView?.indexPathForSelectedRow!
             
-            secondViewController.articleData = self.itemsArray[indexPath!.row].articleArt
+            secondViewController.videoData = self.itemsArray[indexPath!.row].videoVid
             
         }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        self.performSegueWithIdentifier("article", sender: indexPath)
-    }*/
+        self.performSegueWithIdentifier("video", sender: indexPath)
+    }
     
     func getVideos()
     {

@@ -12,7 +12,7 @@ class ArticleListController: UIViewController, UITableViewDataSource, UITableVie
     
     var tableView:UITableView?
     var myActIndicator:UIActivityIndicatorView!
-    var alert:UIAlertView = UIAlertView()
+   // var alert:UIAlertView = UIAlertView()
     
     struct ArticleObj {
         var articleTitle : String!
