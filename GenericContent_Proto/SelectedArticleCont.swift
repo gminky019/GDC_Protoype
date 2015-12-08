@@ -30,6 +30,9 @@ class SelectedArticleCont: UIViewController{
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
        self.articleText.text = self.articleData.Text
+        self.articleTitle.text = self.articleData.Title
+        self.articleDate.text = self.articleData.Date
+        self.articleType.text = self.articleData.Type
         getPic()
     //    var img: UIImage = UIImage.init()
         /*
@@ -57,10 +60,9 @@ class SelectedArticleCont: UIViewController{
 
             
             self.myActIndicator.removeFromSuperview()
-            self.articleTitle.text = self.articleData.Title
+           
            // self.articleText.text = self.articleData.Text
-            self.articleDate.text = self.articleData.Date
-            self.articleType.text = self.articleData.Type
+
             self.articleMainPic.image = test
             
            // self.articleDate.text =
@@ -75,7 +77,7 @@ class SelectedArticleCont: UIViewController{
     {
         self.myActIndicator = UIActivityIndicatorView(frame: CGRectMake(100, 100, 100, 100))
         
-        self.myActIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
+        self.myActIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.WhiteLarge
         self.myActIndicator.center = self.view.center
         self.myActIndicator.startAnimating()
         
