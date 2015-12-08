@@ -23,6 +23,13 @@ class RESTConnect : NSObject{
         getHTTPRequest(realURL, onComplete: { json, err in onComplete(json as JSON)})
             
         }
+    func getVideos(onComplete: (JSON)-> Void){
+        
+        let realURL = baseURL + "getAllVideos"
+        
+        getHTTPRequest(realURL, onComplete: { json, err in onComplete(json as JSON)})
+        
+    }
     
     func getHTTPRequest(path: String, onComplete: ServiceResponse){
         let request = NSMutableURLRequest(URL: NSURL(string: path)!)
