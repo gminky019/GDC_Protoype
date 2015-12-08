@@ -517,8 +517,8 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                 <animations/>
                                 <state key="normal" image="IconComments.png"/>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qnG-cI-y7u">
-                                <rect key="frame" x="0.0" y="60" width="414" height="250"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnG-cI-y7u">
+                                <rect key="frame" x="0.0" y="100" width="414" height="676"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
@@ -527,8 +527,11 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oed-uZ-7Tm" firstAttribute="leading" secondItem="e19-vt-bJr" secondAttribute="leading" id="AKm-Gg-xdc"/>
+                            <constraint firstItem="qnG-cI-y7u" firstAttribute="trailing" secondItem="oed-uZ-7Tm" secondAttribute="trailing" id="E41-vB-oKq"/>
+                            <constraint firstItem="qnG-cI-y7u" firstAttribute="top" secondItem="POo-jB-Nh0" secondAttribute="bottom" constant="38" id="HKP-5R-XbB"/>
                             <constraint firstItem="oed-uZ-7Tm" firstAttribute="leading" secondItem="MM2-mj-gNR" secondAttribute="leading" id="KRT-mO-WiD"/>
                             <constraint firstItem="iNa-KU-Cpy" firstAttribute="leading" secondItem="e19-vt-bJr" secondAttribute="leading" constant="163" id="KlO-w0-CKN"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="qnG-cI-y7u" secondAttribute="bottom" constant="-40" id="afI-XX-vrN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="POo-jB-Nh0" secondAttribute="trailing" constant="-19" id="fnu-vL-hYK"/>
                             <constraint firstItem="MM2-mj-gNR" firstAttribute="top" secondItem="g6D-sj-4t1" secondAttribute="bottom" id="h0T-Gn-adZ"/>
                             <constraint firstAttribute="trailing" secondItem="oed-uZ-7Tm" secondAttribute="trailing" id="j9h-5c-Re7"/>
@@ -536,6 +539,7 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                             <constraint firstItem="oed-uZ-7Tm" firstAttribute="top" secondItem="e19-vt-bJr" secondAttribute="top" id="l0J-i0-dBb"/>
                             <constraint firstItem="POo-jB-Nh0" firstAttribute="top" secondItem="iNa-KU-Cpy" secondAttribute="top" id="ln6-rO-5Sp"/>
                             <constraint firstItem="iNa-KU-Cpy" firstAttribute="bottom" secondItem="oed-uZ-7Tm" secondAttribute="bottom" id="pqL-Z9-b3r"/>
+                            <constraint firstItem="qnG-cI-y7u" firstAttribute="leading" secondItem="MM2-mj-gNR" secondAttribute="leading" id="rFk-o3-FrH"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>

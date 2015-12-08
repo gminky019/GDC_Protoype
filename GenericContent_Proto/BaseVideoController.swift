@@ -27,7 +27,11 @@ class BaseVideoController: UIViewController{
         super.viewDidLoad()
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
-       // let width = 300
+        let width = 355
+        let height = 200
+        let frame = 10
+        let Code:NSString = "<iframe width=\(width) height=\(height) src=\(videoData.Link) frameborder=\(frame) allowfullscreen></iframe>";
+        self.mainWeb.loadHTMLString(Code as String, baseURL: nil)
         
         
     }
