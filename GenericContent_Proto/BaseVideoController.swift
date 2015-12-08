@@ -20,11 +20,14 @@ import Foundation
 
 class BaseVideoController: UIViewController{
     
+    @IBOutlet weak var mainWeb: UIWebView!
     var videoData: Video!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+       // let width = 300
         
         
     }

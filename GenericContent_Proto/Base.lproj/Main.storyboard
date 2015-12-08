@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -501,19 +501,29 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopBar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oed-uZ-7Tm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CD_Logo_40x40.png" translatesAutoresizingMaskIntoConstraints="NO" id="iNa-KU-Cpy">
                                 <rect key="frame" x="163" y="20" width="40" height="40"/>
+                                <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MM2-mj-gNR">
                                 <rect key="frame" x="0.0" y="20" width="39" height="42"/>
+                                <animations/>
                                 <state key="normal" image="IconBack.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POo-jB-Nh0">
                                 <rect key="frame" x="374" y="20" width="39" height="42"/>
+                                <animations/>
                                 <state key="normal" image="IconComments.png"/>
                             </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qnG-cI-y7u">
+                                <rect key="frame" x="0.0" y="60" width="414" height="250"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oed-uZ-7Tm" firstAttribute="leading" secondItem="e19-vt-bJr" secondAttribute="leading" id="AKm-Gg-xdc"/>
@@ -529,6 +539,9 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="mainWeb" destination="qnG-cI-y7u" id="NCT-ii-5Qh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGr-Au-cby" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
