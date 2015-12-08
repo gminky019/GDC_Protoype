@@ -49,7 +49,7 @@ class SelectedArticleCont: UIViewController{
         
         dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
             
-            let url: NSURL = NSURL(string: "https://c2.staticflickr.com/6/5127/5277006397_4ce2343886.jpg")!
+            let url: NSURL = NSURL(string: self.articleData.Thumb)!
             
             let data : NSData = NSData(contentsOfURL: url)!
             

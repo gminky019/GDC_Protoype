@@ -308,11 +308,10 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Article Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4m8-Hv-6pl">
-                                        <rect key="frame" x="14" y="216" width="191" height="39"/>
+                                        <rect key="frame" x="14" y="216" width="384" height="39"/>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="39" id="SS6-Lp-0jv"/>
-                                            <constraint firstAttribute="width" constant="191" id="vUu-6J-svX"/>
+                                            <constraint firstAttribute="height" constant="39" id="HMJ-Ob-nPm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -362,17 +361,18 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                                     <constraint firstItem="XFy-uS-FfA" firstAttribute="top" secondItem="iBd-ns-7iI" secondAttribute="bottom" constant="37" id="IHY-x1-xQg"/>
                                     <constraint firstItem="XFy-uS-FfA" firstAttribute="leading" secondItem="IbH-Ic-Vkk" secondAttribute="leading" constant="43" id="Jm4-4M-jE3"/>
                                     <constraint firstItem="s9D-7P-BYZ" firstAttribute="firstBaseline" secondItem="XFy-uS-FfA" secondAttribute="firstBaseline" id="Khv-tS-H40"/>
-                                    <constraint firstItem="RZt-b1-HLW" firstAttribute="top" secondItem="4m8-Hv-6pl" secondAttribute="bottom" constant="65" id="Mv6-Nb-RXI"/>
+                                    <constraint firstItem="4m8-Hv-6pl" firstAttribute="leading" secondItem="IbH-Ic-Vkk" secondAttribute="leading" constant="14" id="MJJ-ta-46V"/>
+                                    <constraint firstItem="eKD-3g-L7d" firstAttribute="top" secondItem="4m8-Hv-6pl" secondAttribute="bottom" constant="38" id="My1-JC-FBd"/>
                                     <constraint firstAttribute="trailing" secondItem="RZt-b1-HLW" secondAttribute="trailing" constant="2" id="N9U-Uh-pkr"/>
                                     <constraint firstItem="eKD-3g-L7d" firstAttribute="leading" secondItem="XFy-uS-FfA" secondAttribute="trailing" constant="8" symbolic="YES" id="Niz-s9-vQ4"/>
                                     <constraint firstItem="eKD-3g-L7d" firstAttribute="centerX" secondItem="iBd-ns-7iI" secondAttribute="centerX" id="OdT-k9-y5N"/>
                                     <constraint firstItem="s9D-7P-BYZ" firstAttribute="leading" secondItem="XFy-uS-FfA" secondAttribute="trailing" constant="46" id="Scz-jc-jtT"/>
-                                    <constraint firstItem="4m8-Hv-6pl" firstAttribute="leading" secondItem="IbH-Ic-Vkk" secondAttribute="leading" constant="14" id="Wso-SY-RLn"/>
                                     <constraint firstItem="iNb-n4-7j6" firstAttribute="bottom" secondItem="eKD-3g-L7d" secondAttribute="bottom" id="a0T-Qd-RnQ"/>
                                     <constraint firstItem="iNb-n4-7j6" firstAttribute="top" secondItem="iBd-ns-7iI" secondAttribute="bottom" constant="29" id="fgW-5i-54K"/>
                                     <constraint firstItem="iBd-ns-7iI" firstAttribute="top" secondItem="IbH-Ic-Vkk" secondAttribute="top" id="gWK-M5-ETr"/>
                                     <constraint firstAttribute="bottom" secondItem="RZt-b1-HLW" secondAttribute="bottom" id="hhD-40-eVy"/>
                                     <constraint firstItem="s9D-7P-BYZ" firstAttribute="trailing" secondItem="IbH-Ic-Vkk" secondAttribute="trailingMargin" id="qYN-gw-oxd"/>
+                                    <constraint firstItem="4m8-Hv-6pl" firstAttribute="centerX" secondItem="RZt-b1-HLW" secondAttribute="centerX" id="rpo-Ui-tI6"/>
                                     <constraint firstAttribute="trailing" secondItem="iBd-ns-7iI" secondAttribute="trailing" id="vWs-xf-r45"/>
                                     <constraint firstItem="RZt-b1-HLW" firstAttribute="leading" secondItem="iBd-ns-7iI" secondAttribute="leading" id="ymv-d2-Rkm"/>
                                 </constraints>
