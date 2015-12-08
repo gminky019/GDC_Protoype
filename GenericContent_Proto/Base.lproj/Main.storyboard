@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lXO-fF-IoG">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -39,7 +39,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Hello" id="5pE-Kj-Gxn">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Videos" id="5pE-Kj-Gxn">
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5pE-Kj-Gxn" id="7Ae-z1-E2y">
@@ -434,10 +434,10 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
             </objects>
             <point key="canvasLocation" x="2025" y="746"/>
         </scene>
-        <!--Hello-->
+        <!--Video List Cont-->
         <scene sceneID="Dy8-X3-uNe">
             <objects>
-                <viewController id="GTa-I5-OKh" customClass="Hello" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GTa-I5-OKh" customClass="VideoListCont" customModule="GenericContent_Proto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QQv-xw-tXJ"/>
                         <viewControllerLayoutGuide type="bottom" id="w0E-Yq-YbB"/>
@@ -446,13 +446,6 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WtQ-Qf-3Yg">
-                                <rect key="frame" x="225" y="152" width="150" height="2"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="kh4-Gg-Iu8"/>
-                                </constraints>
-                            </progressView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopBar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Epd-qJ-i50">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
                                 <animations/>
@@ -476,8 +469,6 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="CbW-yo-tng" firstAttribute="top" secondItem="QQv-xw-tXJ" secondAttribute="bottom" id="BLH-mK-k0o"/>
-                            <constraint firstItem="WtQ-Qf-3Yg" firstAttribute="top" secondItem="Epd-qJ-i50" secondAttribute="bottom" constant="92" id="KXu-qM-lOe"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="WtQ-Qf-3Yg" secondAttribute="trailing" constant="19" id="MiO-v6-cgo"/>
                             <constraint firstItem="CbW-yo-tng" firstAttribute="leading" secondItem="I6b-ca-GM6" secondAttribute="leading" id="NK9-xA-daI"/>
                             <constraint firstAttribute="trailing" secondItem="Epd-qJ-i50" secondAttribute="trailing" id="SOd-ii-O3l"/>
                             <constraint firstItem="Epd-qJ-i50" firstAttribute="top" secondItem="I6b-ca-GM6" secondAttribute="top" id="XRS-fS-s18"/>
@@ -507,6 +498,6 @@ Quisque viverra odio a leo gravida, eget feugiat nisl ornare. Praesent eget feug
         <image name="TopBar.jpg" width="320" height="55"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nf0-gt-bL1"/>
+        <segue reference="xVp-7R-nhV"/>
     </inferredMetricsTieBreakers>
 </document>

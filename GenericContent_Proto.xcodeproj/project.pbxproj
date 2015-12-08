@@ -11,6 +11,7 @@
 		850B32C21C1430E500483A68 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32C11C1430E500483A68 /* ArticleView.swift */; };
 		850B32C41C143F9700483A68 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32C31C143F9700483A68 /* Article.swift */; };
 		850B32CA1C155BD000483A68 /* TestLoaderCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32C91C155BD000483A68 /* TestLoaderCont.swift */; };
+		850B32CC1C16973700483A68 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B32CB1C16973700483A68 /* Video.swift */; settings = {ASSET_TAGS = (); }; };
 		859EFEAD1C1150C80022A462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEAC1C1150C80022A462 /* AppDelegate.swift */; };
 		859EFEAF1C1150C80022A462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEAE1C1150C80022A462 /* ViewController.swift */; };
 		859EFEB21C1150C80022A462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859EFEB01C1150C80022A462 /* Main.storyboard */; };
@@ -19,7 +20,7 @@
 		859EFEC21C1150C80022A462 /* GenericContent_ProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEC11C1150C80022A462 /* GenericContent_ProtoTests.swift */; };
 		859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859EFECE1C1153840022A462 /* SWRevealViewController.m */; };
 		859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED01C11592B0022A462 /* BackTableVC.swift */; };
-		859EFED31C1168440022A462 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED21C1168440022A462 /* Hello.swift */; };
+		859EFED31C1168440022A462 /* VideoListCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED21C1168440022A462 /* VideoListCont.swift */; };
 		859EFED51C11692A0022A462 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED41C11692A0022A462 /* Second.swift */; };
 		859EFED71C1169720022A462 /* ArticleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFED61C1169720022A462 /* ArticleListController.swift */; };
 		859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859EFEDA1C1418C90022A462 /* RESTConnect.swift */; };
@@ -52,6 +53,7 @@
 		850B32C11C1430E500483A68 /* ArticleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
 		850B32C31C143F9700483A68 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		850B32C91C155BD000483A68 /* TestLoaderCont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLoaderCont.swift; sourceTree = "<group>"; };
+		850B32CB1C16973700483A68 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		859EFEA91C1150C80022A462 /* GenericContent_Proto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericContent_Proto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859EFEAC1C1150C80022A462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859EFEAE1C1150C80022A462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		859EFECD1C1153840022A462 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		859EFECE1C1153840022A462 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		859EFED01C11592B0022A462 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
-		859EFED21C1168440022A462 /* Hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hello.swift; path = ../Hello.swift; sourceTree = "<group>"; };
+		859EFED21C1168440022A462 /* VideoListCont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoListCont.swift; path = ../VideoListCont.swift; sourceTree = "<group>"; };
 		859EFED41C11692A0022A462 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 		859EFED61C1169720022A462 /* ArticleListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListController.swift; sourceTree = "<group>"; };
 		859EFEDA1C1418C90022A462 /* RESTConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTConnect.swift; sourceTree = "<group>"; };
@@ -124,7 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				859EFECD1C1153840022A462 /* SWRevealViewController.h */,
-				859EFED21C1168440022A462 /* Hello.swift */,
+				859EFED21C1168440022A462 /* VideoListCont.swift */,
 				859EFECE1C1153840022A462 /* SWRevealViewController.m */,
 				859EFEAC1C1150C80022A462 /* AppDelegate.swift */,
 				859EFEAE1C1150C80022A462 /* ViewController.swift */,
@@ -142,6 +144,7 @@
 				850B32C31C143F9700483A68 /* Article.swift */,
 				850B32C91C155BD000483A68 /* TestLoaderCont.swift */,
 				CC04453D1C156C4000E72A31 /* UI Items */,
+				850B32CB1C16973700483A68 /* Video.swift */,
 			);
 			path = GenericContent_Proto;
 			sourceTree = "<group>";
@@ -291,11 +294,12 @@
 				859EFEAF1C1150C80022A462 /* ViewController.swift in Sources */,
 				859EFEAD1C1150C80022A462 /* AppDelegate.swift in Sources */,
 				859EFED11C11592B0022A462 /* BackTableVC.swift in Sources */,
-				859EFED31C1168440022A462 /* Hello.swift in Sources */,
+				859EFED31C1168440022A462 /* VideoListCont.swift in Sources */,
 				859EFECF1C1153840022A462 /* SWRevealViewController.m in Sources */,
 				850B32CA1C155BD000483A68 /* TestLoaderCont.swift in Sources */,
 				859EFED71C1169720022A462 /* ArticleListController.swift in Sources */,
 				850B32C01C142F6E00483A68 /* SwiftyJSON.swift in Sources */,
+				850B32CC1C16973700483A68 /* Video.swift in Sources */,
 				850B32C21C1430E500483A68 /* ArticleView.swift in Sources */,
 				859EFEDB1C1418C90022A462 /* RESTConnect.swift in Sources */,
 				859EFED51C11692A0022A462 /* Second.swift in Sources */,
